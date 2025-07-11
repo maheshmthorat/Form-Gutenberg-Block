@@ -1,0 +1,101 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-my-first-block {
+  padding: 2px;
+}
+
+.customBorder {
+  border: solid 1px #cccccc;
+}
+
+.input-group-text {
+  width: 170px;
+}
+
+.bottomSpace {
+  margin-bottom: 10px;
+}
+
+.sticky-container {
+  position: relative;
+}
+
+.sticky-element {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+.floatingAlert {
+  position: fixed !important;
+  top: 50% !important;
+  left: 50%;
+  z-index: 999999;
+  transform: translate(-50%, -50%);
+}
+
+.alertOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999999;
+}
+
+.alert h3 {
+  margin: 10px;
+}
+
+.customImageButton {
+  display: flex;
+  height: 130px;
+  padding-top: 30px !important;
+  border: solid 1px #cccccc !important;
+}
+
+.customImageButton .dashicons, .customImageButton .dashicons-before:before {
+  display: inline !important;
+}
+
+.customImageButton .dashicons::before {
+  font-size: 45px;
+  line-height: 0 !important;
+}
+
+.accordion-button {
+  border: solid 1px !important;
+}
+
+.moveButton {
+  cursor: move !important;
+}
+
+.fieldPreview {
+  padding: 10px;
+  width: 100%;
+  background-color: #fff;
+  border: dashed 1px #cccccc;
+  margin: 10px 0;
+  opacity: 0.6;
+}
+
+.fieldPreview:hover {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

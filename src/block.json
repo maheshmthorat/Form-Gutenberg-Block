@@ -1,0 +1,82 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/my-first-block",
+	"version": "0.1.0",
+	"title": "My First Block",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"selector": "p"
+		},
+		"content": {
+			"type": "string",
+			"source": "html",
+			"selector": "p"
+		},
+		"align": {
+			"type": "string",
+			"default": "none"
+		},
+		"backgroundColor": {
+			"type": "string"
+		},
+		"textColor": {
+			"type": "string"
+		},
+		"borderSetting": {
+			"type": "boolean",
+			"default": false
+		},
+		"borderColor": {
+			"type": "string",
+			"default": "#cccccc"
+		},
+		"borderSize": {
+			"type": "number",
+			"default": 1
+		},
+		"cardImageSetting": {
+			"type": "boolean",
+			"default": false
+		},
+		"cardImageAlign": {
+			"type": "string",
+			"default": "none"
+		},
+		"cardImage": {
+			"type": "object",
+			"default": null
+		},
+		"featuredPost": {
+			"type": "number",
+			"default": 0
+		},
+		"featuredPostData": {
+			"type": "object",
+			"default": null
+		},
+		"reviewFormID": {
+			"type": "string",
+			"default": ""
+		},
+		"reviewFormFields": {
+			"type": "object",
+			"default": null
+		},
+		"reviewFormLastFieldID": {
+			"type": "number",
+			"default": 1
+		}
+	},
+	"textdomain": "my-first-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
